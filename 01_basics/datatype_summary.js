@@ -48,3 +48,28 @@ function add() {
 add()
 
 console.log(typeof add)
+
+//******************************STACK & HEAP MEMORY
+//The primitive datatypes are stored in the stack memory while the non-primitive datatypes are stored in the heap memory
+//Hence things stored in stack memory stores a copy(pass by value) whereas in the heap are passed by reference
+let char = 'a'
+let string = char
+string = 'e'
+console.log(char)
+console.log(string)
+
+let obj1 = {
+   my_name : "TJ",
+   email : "tkaur"
+}
+
+let obj2 = obj1
+
+obj2.email = "tamankaur"
+
+console.log(obj1.email)
+console.log(obj2.email)
+
+// when we change the value of email element in the obj2, value of email element of obj1 also changes because they
+// are both referring to the same obj in the heap
+
