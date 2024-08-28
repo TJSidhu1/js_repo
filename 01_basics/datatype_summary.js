@@ -14,3 +14,15 @@ There are two categories of data types:
    an object data type.
 */
 
+const id = null
+let studentName = "Taman"
+let numbersymbol = Symbol(10)  // Symbol is a primitive data type that is used to create unique and immutable identifiers.
+let number = 10
+let val = true
+let userid
+let uniqueId = 12
+let hugeval = 12222435454565756756767867867867n //adding an n makes the engine/compiler to treat it as bigint
+
+console.table([typeof id, typeof studentName, typeof number, typeof numbersymbol, typeof val, typeof userid, typeof hugeval])
+
+
