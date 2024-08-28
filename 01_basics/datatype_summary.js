@@ -25,4 +25,7 @@ let hugeval = 12222435454565756756767867867867n //adding an n makes the engine/c
 
 console.table([typeof id, typeof studentName, typeof number, typeof numbersymbol, typeof val, typeof userid, typeof hugeval])
 
+//Non primitive datatypes
 
+arr = [1,2,3,4,5]
+console.log(typeof arr)
