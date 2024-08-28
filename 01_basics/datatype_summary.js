@@ -27,5 +27,24 @@ console.table([typeof id, typeof studentName, typeof number, typeof numbersymbol
 
 //Non primitive datatypes
 
-arr = [1,2,3,4,5]
+arr = [1,2,3,4,5]                         //array 
 console.log(typeof arr)
+
+let studentinfo = {                  //object
+  num : 1,
+  name : "TJ",
+  type : "student"
+};
+
+console.log(typeof studentinfo)
+
+//function
+
+function add() {
+  n = 3+4
+  console.log(n)
+}
+
+add()
+
+console.log(typeof add)
