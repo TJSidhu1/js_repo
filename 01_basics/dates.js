@@ -12,3 +12,5 @@ console.log(newDate.toDateString())
 
 // let date2 = new Date()
 console.log(Date.now())
+console.log(Date.now().toLocaleString())
+console.log(Date.now().toString());
