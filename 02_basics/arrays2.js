@@ -6,3 +6,6 @@ const alphanumeric = ['one', 'two', 'three']
 
 const num3 = numbers.concat(alphanumeric)
 console.log(num3)
+
+const num4 = [...numbers, ...alphanumeric]       //is called spread function and can be used to merge as many arraays as possible
+console.log(num4)
