@@ -18,6 +18,13 @@ console.log(typeof obj[mySymbol])
 
 obj.name = "TJ Sidhu"
 console.log(obj)
-Object.freeze(obj)
+// Object.freeze(obj)
 obj.name = "Tamanjeet Kaur"
+console.log(obj)
+
+obj.greeting = function(){
+    console.log("Hello")
+}
+
+console.log(obj.greeting())
 console.log(obj)
