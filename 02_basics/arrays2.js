@@ -13,3 +13,8 @@ const alphanumeric = ['one', 'two', 'three']
 const num5 = [1,2,3, [4,5,[6,7]]]
 const num6 = num5.flat(3)
 console.log(num6)
+
+console.log(Array.isArray(num5))
+
+const str = "hello"
+console.log(Array.isArray(str))
