@@ -21,3 +21,6 @@ console.log(obj3)
 
 const obj4 = {...obj1, ...obj2}            //spread operator
 console.log(obj4)
+
+console.log(Object.keys(appuser))
+console.log(Object.values(appuser))
