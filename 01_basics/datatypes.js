@@ -1,6 +1,6 @@
 const id = 1
 const Name = "Taman"
-let studentName = "Tamanjeet"
+let studentName = 1
 let password = true
 let pwd2
 let pwd3 = null
