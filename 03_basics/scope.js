@@ -18,5 +18,5 @@ while(a == 10)
     console.log(b)
 }
 // console.log(word + key) // word is not defined here because its scope is just within the loop
-console.log(a)
+// console.log(a)
 // console.log(b)
