@@ -6,3 +6,4 @@ username = {
 }
 
 console.log(this.name)
+console.log(username.name)
