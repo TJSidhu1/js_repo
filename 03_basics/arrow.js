@@ -5,5 +5,5 @@ username = {
 
 }
 
-console.log(this.name)
+console.log(this)
 console.log(username.name)
