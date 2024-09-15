@@ -6,4 +6,5 @@ username = {
 }
 
 console.log(this)
-console.log(username.name)
+console.log(username.name) 
+console.log(globalThis)
