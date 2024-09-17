@@ -1,7 +1,8 @@
 username = {
     name : "TJ",
     class : "JS",
-    function : console.log(this.name)
+    function : console.log(this.name),
+    topic: "Arrow functions"
 
 }
 
