@@ -6,6 +6,18 @@ username = {
 
 }
 
-console.log(this)
-console.log(username.name) 
-console.log(globalThis)
+// console.log(this)
+// console.log(username.name) 
+// console.log(globalThis)
+
+// const fun = function(){
+//     let username = "Taman"
+//     console.log(this.username)
+// }
+
+const fun = () => {
+    let username = "Taman"
+    console.log(this.username)
+}
+
+fun()
